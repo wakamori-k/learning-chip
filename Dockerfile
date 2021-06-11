@@ -14,5 +14,5 @@ RUN mkdir ${HOME}/tools;\
 RUN cd; git clone https://github.com/project-chip/connectedhomeip.git;\
     cd connectedhomeip;\
     git checkout c5fff8531346609d3e4e75ea4ab7efba2d90a7f0;\
-    source ./scripts/bootstrap.sh;\
-    source ./scripts/activate.sh
+    . ./scripts/bootstrap.sh;\
+    . ./scripts/activate.sh
